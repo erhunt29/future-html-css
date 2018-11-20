@@ -3,10 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <title>Верстка шаблона</title>
-
 </head>
 <body>
-
+    <header class="main-header">
+        <nav class="navigation main-header__navigation">
+            <div class="logo">Big Shop</div>
+            <div class="navigation-panel">
+                <input class="search" type="text" placeholder="Search">
+                <select class="select-collection"name="" id="">
+                    <option>Collection</option>
+                </select>
+            </div>
+        </nav>
+        <div class="banner">
+            <img class="banner__image" src="src/images/banner-image.png" alt="">
+            <h2 class="banner__header banner__header_color-black">Summer</h2>
+            <h2 class="banner__header banner__header_color-white">Collection</h2>
+            <div class="banner__discount discount"><span class="discount__number">25%</span>OFF</div>
+            <button class="banner_details">Details</button>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="trends main-content__trends">
+            <h3 class="trends__header header header_size-3">Trendy Arrivals</h3>
+            <div class="goods trends__goods">
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-bag-item-1.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name">Black Genuine Leather Bags </p>
+                    <b class="goods-item__price">$ 23.20</b>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-bag-item-2.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name">Black Genuine Leather Bags </p>
+                    <b class="goods-item__price">$ 20.16</b>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-bag-item-3.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name">Black Genuine Leather Bags </p>
+                    <b class="goods-item__price">$ 30.14</b>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-bag-item-4.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name">Black Genuine Leather Bags </p>
+                    <b class="goods-item__price">$ 15.20</b>
+                </div>
+                <div class="goods-item goods__goods-item goods-item-selected">
+                    <img src="src/images/goods-bag-item-5.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name  goods-item__name_selected">Black Genuine Leather Bags </p>
+                    <b class="goods-item__price goods-item__price_selected">$ 25.20</b>
+                    <button class=goods-item__button">Add to Cart</button>
+                    <div class="goods-item__likes">253</div>
+                    <div class="goods-item__comments">120</div>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-bag-item-6.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name">Black Genuine Leather Bags </p>
+                    <b class="goods-item__price">$ 17.6</b>
+                </div>
+            </div>
+        </section>
+        <section class="brands main-content__brands">
+            <h3 class="brands__header header header_size-3">Our Brands</h3>
+            <p class="paragraph paragraph_size-l">Small Shoes 2017 new Arrivals  mini <br>
+                Messenger <a href="">Classic Shoes</a></p>
+            <p class="paragraph paragraph_size-m">
+                In porttitor elit ac mi placerat hendrerit. Morbi accumsan, erat in ullamcorper consectetur, nisi erat efficitur eros, sagittis tristique odio turpis vitae dui. Vestibulum gravida est ut erat pretium, non pretium diam feugiat. Integer egestas suscipit lorem ac fermentum. Integer at mauris vitae justo sagittis dapibus. Pellentesque sit amet nisl vitae orci vehicula faucibus. Fusce et lat, feugiat est.
+            </p>
+            <img src="src/images/iphone.png" class="brands__image" alt="">
+        </section>
+        <section class="showcase main-content__showcase">
+            <h3 class="brands__header header header_size-3">Our Showcase</h3>
+            <nav class="showcase__navigation">
+                <ul class="showcase__navigation navigation-list">
+                    <li class="navigation-list-item">Fashion</li>
+                    <li class="navigation-list-item">Furniture</li>
+                    <li class="navigation-list-item navigation-list-item_selected">Watches</li>
+                    <li class="navigation-list-item">Mobile</li>
+                    <li class="navigation-list-item">Cloth</li>
+                    <li class="navigation-list-item">Toys</li>
+                </ul>
+            </nav>
+            <div class="goods showcase__goods">
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-watches-item-1.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name"> Fashion Genuine Chain Watch</p>
+                    <b class="goods-item__price">$ 25.36</b>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-watches-item-2.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name"> Fashion Silver Chain Watch</p>
+                    <b class="goods-item__price">$ 35.24</b>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-watches-item-3.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name"> Fashion Chain Watch</p>
+                    <b class="goods-item__price">$ 23.12</b>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-watches-item-4.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name"> Fashion Black Chain Watch</p>
+                    <b class="goods-item__price">$ 42.32</b>
+                </div>
+                <div class="goods-item goods__goods-item goods-item-selected">
+                    <img src="src/images/goods-watches-item-5.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name"> Fashion Lether  Watch  </p>
+                    <b class="goods-item__price">$ 15.20</b>
+                </div>
+                <div class="goods-item goods__goods-item">
+                    <img src="src/images/goods-watches-item-6.png" class="goods-item__image" alt="">
+                    <p class="goods-item__name"> Fashion Forign Watch</p>
+                    <b class="goods-item__price">$ 36.12</b>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe main-header__subscribe">
+            <h3 class="brands__header header header_size-3 header_theme-white">Newsletter</h3>
+            <form class="submit" action="">
+                <input class="submit__input" type="text" placeholder="Enter your email address...">
+                <button class="submit__button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <h4 class="main-footer__header header header-size-4">Big Shop</h4>
+        <ul class="main-footer__goods-list goods-list">
+            <li class="goods-list-item">Man</li>
+            <li class="goods-list-item">Woman</li>
+            <li class="goods-list-item">Kids</li>
+            <li class="goods-list-item">Bags</li>
+            <li class="goods-list-item">Watches</li>
+            <li class="goods-list-item">Toys</li>
+        </ul>
+        <ul class="main-footer__social-list social-list">
+            <li class="social-list-item social-list-item_facebook"></li>
+            <li class="social-list-item social-list-item_google"></li>
+            <li class="social-list-item social-list-item_instagram"></li>
+            <li class="social-list-item social-list-item_twitter"></li>
+        </ul>
+        <div class="main-footer__copyright copyright">
+            <p class="copyright__paragraph  paragraph paragraph_size-s">
+                © Copyright 2018. Big Shop
+            </p>
+        </div>
+    </footer>
 </body>
 <script src="static/main.js"></script>
 </html>
